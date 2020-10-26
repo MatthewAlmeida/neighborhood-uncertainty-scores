@@ -1,0 +1,1000 @@
+Experiment name: SampleWeight1, finished training at 27/02/2020 23:38:03 UTC
+Scaling:standard
+Hyperparams:
+
+Learning rate: 0.01 Dropout: 0.0 Mid dropout: 0.0
+Conv filters: 32 1st Conv size: 3 Mid Conv Size:3 Epochs: 250
+Optimizer: 1cycle L2 on?: 1 Epochs: 250
+Batch size: 32 Network blocks: 1,1
+
+Results on test: 
+
+Final training accuracy: 0.594, Final validation accuracy: 0.441
+Number of epochs trained: 40
+
+Validation set result:
+
+              precision    recall  f1-score   support
+
+           0       0.59      0.77      0.67      3900
+           1       0.28      0.28      0.28      3900
+           2       0.14      0.12      0.13      3900
+           3       0.23      0.33      0.27      3900
+           4       0.62      0.51      0.56      3900
+           5       0.53      0.57      0.55      3900
+           6       0.58      0.36      0.44      3900
+           7       0.38      0.34      0.36      3900
+
+    accuracy                           0.41     31200
+   macro avg       0.42      0.41      0.41     31200
+weighted avg       0.42      0.41      0.41     31200
+
+[[3004  365   40  166   54  104   90   77]
+ [ 856 1084  410  226  428  427  246  223]
+ [  27  220  449 2199  145  384   42  434]
+ [ 225  354  421 1302  189  367  274  768]
+ [  96  545  202  677 1979  141   34  226]
+ [ 207  385  477   66  230 2207  135  193]
+ [ 640  646   86  339  105  401 1403  280]
+ [  40  295 1070  790   44  122  209 1330]]
+
+Experiment name: SampleWeight2, finished training at 28/02/2020 00:49:41 UTC
+Scaling:standard
+Hyperparams:
+
+Learning rate: 0.01 Dropout: 0.0 Mid dropout: 0.0
+Conv filters: 32 1st Conv size: 3 Mid Conv Size:3 Epochs: 250
+Optimizer: 1cycle L2 on?: 1 Epochs: 250
+Batch size: 32 Network blocks: 1,1
+
+Results on test: 
+
+Final training accuracy: 0.598, Final validation accuracy: 0.475
+Number of epochs trained: 28
+
+Validation set result:
+
+              precision    recall  f1-score   support
+
+           0       0.75      0.61      0.67      3900
+           1       0.29      0.19      0.23      3900
+           2       0.21      0.15      0.17      3900
+           3       0.23      0.30      0.26      3900
+           4       0.55      0.41      0.47      3900
+           5       0.47      0.38      0.42      3900
+           6       0.43      0.65      0.52      3900
+           7       0.33      0.47      0.39      3900
+
+    accuracy                           0.40     31200
+   macro avg       0.41      0.40      0.39     31200
+weighted avg       0.41      0.40      0.39     31200
+
+[[2396  111   20  214   57  304  737   61]
+ [ 333  723  307  262  324  397  958  596]
+ [   4  293  576 1701  165  198   62  901]
+ [  78  193  298 1172  264  327  533 1035]
+ [  90  587  183  717 1583  143  242  355]
+ [  95  347  555  113  325 1495  559  411]
+ [ 192   72   91  304  105  237 2543  356]
+ [  22  150  735  697   62   87  295 1852]]
+
+Experiment name: SampleWeight3, finished training at 28/02/2020 02:11:10 UTC
+Scaling:standard
+Hyperparams:
+
+Learning rate: 0.01 Dropout: 0.0 Mid dropout: 0.0
+Conv filters: 32 1st Conv size: 3 Mid Conv Size:3 Epochs: 250
+Optimizer: 1cycle L2 on?: 1 Epochs: 250
+Batch size: 32 Network blocks: 1,1
+
+Results on test: 
+
+Final training accuracy: 0.594, Final validation accuracy: 0.450
+Number of epochs trained: 34
+
+Validation set result:
+
+              precision    recall  f1-score   support
+
+           0       0.62      0.74      0.68      3900
+           1       0.32      0.17      0.23      3900
+           2       0.14      0.12      0.13      3900
+           3       0.22      0.34      0.27      3900
+           4       0.56      0.54      0.55      3900
+           5       0.44      0.45      0.45      3900
+           6       0.49      0.45      0.47      3900
+           7       0.33      0.31      0.32      3900
+
+    accuracy                           0.39     31200
+   macro avg       0.39      0.39      0.39     31200
+weighted avg       0.39      0.39      0.39     31200
+
+[[2868   90   24  113   82  281  369   73]
+ [ 646  680  397  293  468  506  539  371]
+ [  18  180  467 2084  301  326   68  456]
+ [ 212  192  359 1343  247  420  302  825]
+ [  86  395  208  617 2093  177   69  255]
+ [ 240  227  707  161  387 1750  221  207]
+ [ 450  127  113  612  119  412 1773  294]
+ [  69  248 1020  935   69   75  263 1221]]
+
+Experiment name: SampleWeight4, finished training at 28/02/2020 03:22:35 UTC
+Scaling:standard
+Hyperparams:
+
+Learning rate: 0.01 Dropout: 0.0 Mid dropout: 0.0
+Conv filters: 32 1st Conv size: 3 Mid Conv Size:3 Epochs: 250
+Optimizer: 1cycle L2 on?: 1 Epochs: 250
+Batch size: 32 Network blocks: 1,1
+
+Results on test: 
+
+Final training accuracy: 0.594, Final validation accuracy: 0.473
+Number of epochs trained: 29
+
+Validation set result:
+
+              precision    recall  f1-score   support
+
+           0       0.61      0.77      0.68      3900
+           1       0.25      0.24      0.24      3900
+           2       0.18      0.14      0.16      3900
+           3       0.30      0.24      0.27      3900
+           4       0.53      0.55      0.54      3900
+           5       0.57      0.40      0.47      3900
+           6       0.50      0.53      0.51      3900
+           7       0.36      0.51      0.42      3900
+
+    accuracy                           0.42     31200
+   macro avg       0.41      0.42      0.41     31200
+weighted avg       0.41      0.42      0.41     31200
+
+[[3020  176   16  123   52   82  373   58]
+ [ 750  917  356  171  379  308  615  404]
+ [  29  561  532 1035  451  203   49 1040]
+ [ 224  404  363  949  312  228  359 1061]
+ [ 129  611  234  261 2130  119  186  230]
+ [ 219  485  618   55  266 1557  341  359]
+ [ 566  219   73  300   96  158 2066  422]
+ [  54  243  764  251  365   82  161 1980]]
+
+Experiment name: SampleWeight5, finished training at 28/02/2020 04:28:51 UTC
+Scaling:standard
+Hyperparams:
+
+Learning rate: 0.01 Dropout: 0.0 Mid dropout: 0.0
+Conv filters: 32 1st Conv size: 3 Mid Conv Size:3 Epochs: 250
+Optimizer: 1cycle L2 on?: 1 Epochs: 250
+Batch size: 32 Network blocks: 1,1
+
+Results on test: 
+
+Final training accuracy: 0.593, Final validation accuracy: 0.475
+Number of epochs trained: 27
+
+Validation set result:
+
+              precision    recall  f1-score   support
+
+           0       0.58      0.77      0.66      3900
+           1       0.23      0.15      0.18      3900
+           2       0.21      0.17      0.19      3900
+           3       0.30      0.27      0.28      3900
+           4       0.53      0.50      0.51      3900
+           5       0.44      0.52      0.48      3900
+           6       0.53      0.44      0.48      3900
+           7       0.28      0.38      0.32      3900
+
+    accuracy                           0.40     31200
+   macro avg       0.39      0.40      0.39     31200
+weighted avg       0.39      0.40      0.39     31200
+
+[[2986  133   28  140   63  224  252   74]
+ [ 770  576  319  198  497  667  458  415]
+ [  44  299  672  813  205  410   11 1446]
+ [ 270  246  413 1061  416  468  262  764]
+ [ 129  448  167  395 1938  191  185  447]
+ [ 216  356  569   36  255 2038  192  238]
+ [ 618  274   35  281  122  434 1697  439]
+ [ 120  208  932  649  141  218  161 1471]]
+
+Experiment name: SampleWeight6, finished training at 28/02/2020 05:46:31 UTC
+Scaling:standard
+Hyperparams:
+
+Learning rate: 0.01 Dropout: 0.0 Mid dropout: 0.0
+Conv filters: 32 1st Conv size: 3 Mid Conv Size:3 Epochs: 250
+Optimizer: 1cycle L2 on?: 1 Epochs: 250
+Batch size: 32 Network blocks: 1,1
+
+Results on test: 
+
+Final training accuracy: 0.596, Final validation accuracy: 0.472
+Number of epochs trained: 32
+
+Validation set result:
+
+              precision    recall  f1-score   support
+
+           0       0.67      0.73      0.70      3900
+           1       0.25      0.27      0.26      3900
+           2       0.19      0.16      0.17      3900
+           3       0.28      0.27      0.27      3900
+           4       0.52      0.55      0.53      3900
+           5       0.42      0.39      0.41      3900
+           6       0.53      0.44      0.48      3900
+           7       0.33      0.41      0.36      3900
+
+    accuracy                           0.40     31200
+   macro avg       0.40      0.40      0.40     31200
+weighted avg       0.40      0.40      0.40     31200
+
+[[2866  253   17  135   38  168  322  101]
+ [ 580 1040  330  165  411  423  518  433]
+ [  16  674  624 1180  411  322   28  645]
+ [ 149  488  354 1036  345  342  229  957]
+ [  86  511  133  339 2129  151  136  415]
+ [ 165  539  855   53  442 1522  172  152]
+ [ 372  361   72  320  115  431 1730  499]
+ [  42  356  854  519  202  233  114 1580]]
+
+Experiment name: SampleWeight7, finished training at 28/02/2020 07:03:17 UTC
+Scaling:standard
+Hyperparams:
+
+Learning rate: 0.01 Dropout: 0.0 Mid dropout: 0.0
+Conv filters: 32 1st Conv size: 3 Mid Conv Size:3 Epochs: 250
+Optimizer: 1cycle L2 on?: 1 Epochs: 250
+Batch size: 32 Network blocks: 1,1
+
+Results on test: 
+
+Final training accuracy: 0.596, Final validation accuracy: 0.470
+Number of epochs trained: 31
+
+Validation set result:
+
+              precision    recall  f1-score   support
+
+           0       0.67      0.70      0.69      3900
+           1       0.21      0.18      0.20      3900
+           2       0.23      0.17      0.19      3900
+           3       0.28      0.33      0.31      3900
+           4       0.59      0.53      0.55      3900
+           5       0.40      0.47      0.43      3900
+           6       0.50      0.49      0.49      3900
+           7       0.35      0.42      0.38      3900
+
+    accuracy                           0.41     31200
+   macro avg       0.40      0.41      0.41     31200
+weighted avg       0.40      0.41      0.41     31200
+
+[[2734  112   31  151   50  374  377   71]
+ [ 608  697  205  215  379  834  535  427]
+ [  25  600  648 1519  145  190   58  715]
+ [ 137  267  311 1294  279  411  341  860]
+ [  41  505  120  589 2049  167  138  291]
+ [ 117  344  679   55  403 1834  235  233]
+ [ 362  139   60  357  104  587 1900  391]
+ [  49  581  739  391   85  176  244 1635]]
+
+Experiment name: SampleWeight8, finished training at 28/02/2020 08:20:30 UTC
+Scaling:standard
+Hyperparams:
+
+Learning rate: 0.01 Dropout: 0.0 Mid dropout: 0.0
+Conv filters: 32 1st Conv size: 3 Mid Conv Size:3 Epochs: 250
+Optimizer: 1cycle L2 on?: 1 Epochs: 250
+Batch size: 32 Network blocks: 1,1
+
+Results on test: 
+
+Final training accuracy: 0.596, Final validation accuracy: 0.472
+Number of epochs trained: 31
+
+Validation set result:
+
+              precision    recall  f1-score   support
+
+           0       0.67      0.72      0.69      3900
+           1       0.28      0.19      0.23      3900
+           2       0.19      0.15      0.17      3900
+           3       0.23      0.29      0.26      3900
+           4       0.55      0.51      0.53      3900
+           5       0.50      0.56      0.53      3900
+           6       0.52      0.51      0.51      3900
+           7       0.36      0.41      0.38      3900
+
+    accuracy                           0.42     31200
+   macro avg       0.41      0.42      0.41     31200
+weighted avg       0.41      0.42      0.41     31200
+
+[[2815  169   45  136   57  204  389   85]
+ [ 483  754  368  195  607  593  587  313]
+ [  12  332  584 1639  259  249   86  739]
+ [ 257  228  411 1146  262  418  316  862]
+ [  99  504  219  479 2000  183   99  317]
+ [ 137  241  495  102  260 2196  248  221]
+ [ 388  247   60  409  128  360 1975  333]
+ [  38  217  842  827   83  159  128 1606]]
+
+Experiment name: SampleWeight9, finished training at 28/02/2020 09:38:33 UTC
+Scaling:standard
+Hyperparams:
+
+Learning rate: 0.01 Dropout: 0.0 Mid dropout: 0.0
+Conv filters: 32 1st Conv size: 3 Mid Conv Size:3 Epochs: 250
+Optimizer: 1cycle L2 on?: 1 Epochs: 250
+Batch size: 32 Network blocks: 1,1
+
+Results on test: 
+
+Final training accuracy: 0.596, Final validation accuracy: 0.445
+Number of epochs trained: 32
+
+Validation set result:
+
+              precision    recall  f1-score   support
+
+           0       0.64      0.70      0.67      3900
+           1       0.26      0.26      0.26      3900
+           2       0.19      0.16      0.17      3900
+           3       0.27      0.33      0.30      3900
+           4       0.53      0.52      0.52      3900
+           5       0.45      0.48      0.47      3900
+           6       0.56      0.42      0.48      3900
+           7       0.35      0.35      0.35      3900
+
+    accuracy                           0.40     31200
+   macro avg       0.41      0.40      0.40     31200
+weighted avg       0.41      0.40      0.40     31200
+
+[[2719  292   51  171   54  254  274   85]
+ [ 637 1013  400  213  436  577  324  300]
+ [  10  451  641 1475  379  318   41  585]
+ [  86  374  417 1302  281  356  236  848]
+ [  90  553  214  509 2018  165  147  204]
+ [ 198  468  667   68  248 1889  157  205]
+ [ 463  364   97  383  138  508 1656  291]
+ [  39  437  948  653  244   96  133 1350]]
+
+Experiment name: SampleWeight10, finished training at 28/02/2020 10:50:11 UTC
+Scaling:standard
+Hyperparams:
+
+Learning rate: 0.01 Dropout: 0.0 Mid dropout: 0.0
+Conv filters: 32 1st Conv size: 3 Mid Conv Size:3 Epochs: 250
+Optimizer: 1cycle L2 on?: 1 Epochs: 250
+Batch size: 32 Network blocks: 1,1
+
+Results on test: 
+
+Final training accuracy: 0.595, Final validation accuracy: 0.456
+Number of epochs trained: 29
+
+Validation set result:
+
+              precision    recall  f1-score   support
+
+           0       0.57      0.75      0.65      3900
+           1       0.24      0.20      0.22      3900
+           2       0.15      0.16      0.15      3900
+           3       0.27      0.30      0.28      3900
+           4       0.62      0.50      0.56      3900
+           5       0.38      0.30      0.34      3900
+           6       0.54      0.43      0.48      3900
+           7       0.30      0.38      0.33      3900
+
+    accuracy                           0.38     31200
+   macro avg       0.38      0.38      0.38     31200
+weighted avg       0.38      0.38      0.38     31200
+
+[[2909  158   64  177   51  255  228   58]
+ [ 792  788  528  196  405  359  402  430]
+ [  12  477  605 1501  136  363   29  777]
+ [ 171  402  509 1178  179  329  265  867]
+ [ 109  525  229  430 1957  146  130  374]
+ [ 331  323  780   38  326 1173  269  660]
+ [ 713  230  139  383   68  307 1693  367]
+ [  63  315 1204  506   21  163  136 1492]]
+
+Experiment name: SampleWeight11, finished training at 28/02/2020 12:02:57 UTC
+Scaling:standard
+Hyperparams:
+
+Learning rate: 0.01 Dropout: 0.0 Mid dropout: 0.0
+Conv filters: 32 1st Conv size: 3 Mid Conv Size:3 Epochs: 250
+Optimizer: 1cycle L2 on?: 1 Epochs: 250
+Batch size: 32 Network blocks: 1,1
+
+Results on test: 
+
+Final training accuracy: 0.595, Final validation accuracy: 0.450
+Number of epochs trained: 30
+
+Validation set result:
+
+              precision    recall  f1-score   support
+
+           0       0.68      0.69      0.68      3900
+           1       0.26      0.22      0.24      3900
+           2       0.25      0.24      0.25      3900
+           3       0.31      0.31      0.31      3900
+           4       0.60      0.49      0.54      3900
+           5       0.55      0.58      0.57      3900
+           6       0.54      0.53      0.53      3900
+           7       0.36      0.50      0.42      3900
+
+    accuracy                           0.44     31200
+   macro avg       0.45      0.44      0.44     31200
+weighted avg       0.45      0.44      0.44     31200
+
+[[2683  180   56  250   71  119  468   73]
+ [ 542  846  454  250  319  478  530  481]
+ [  17  733  950  677  214  338   14  957]
+ [ 121  210  409 1200  322  398  301  939]
+ [  27  576  265  478 1896  172  101  385]
+ [ 144  234  595   81  168 2275  219  184]
+ [ 361  220  113  424  111  237 2063  371]
+ [  39  215  921  473   62  132  118 1940]]
+
+Experiment name: SampleWeight12, finished training at 28/02/2020 13:16:09 UTC
+Scaling:standard
+Hyperparams:
+
+Learning rate: 0.01 Dropout: 0.0 Mid dropout: 0.0
+Conv filters: 32 1st Conv size: 3 Mid Conv Size:3 Epochs: 250
+Optimizer: 1cycle L2 on?: 1 Epochs: 250
+Batch size: 32 Network blocks: 1,1
+
+Results on test: 
+
+Final training accuracy: 0.595, Final validation accuracy: 0.474
+Number of epochs trained: 31
+
+Validation set result:
+
+              precision    recall  f1-score   support
+
+           0       0.62      0.78      0.69      3900
+           1       0.29      0.32      0.30      3900
+           2       0.27      0.19      0.22      3900
+           3       0.30      0.38      0.34      3900
+           4       0.55      0.50      0.52      3900
+           5       0.46      0.48      0.47      3900
+           6       0.56      0.40      0.47      3900
+           7       0.38      0.38      0.38      3900
+
+    accuracy                           0.43     31200
+   macro avg       0.43      0.43      0.42     31200
+weighted avg       0.43      0.43      0.42     31200
+
+[[3023  182   15  179   63  154  243   41]
+ [ 679 1241  220  261  368  474  389  268]
+ [  16  558  756 1217  319  331   24  679]
+ [ 211  366  264 1485  287  433  204  650]
+ [  76  789  123  472 1949  146  123  222]
+ [ 262  513  577   91  257 1867  125  208]
+ [ 537  368   48  582  151  354 1570  290]
+ [  69  282  831  623  182  329  121 1463]]
+
+Experiment name: SampleWeight13, finished training at 28/02/2020 14:32:20 UTC
+Scaling:standard
+Hyperparams:
+
+Learning rate: 0.01 Dropout: 0.0 Mid dropout: 0.0
+Conv filters: 32 1st Conv size: 3 Mid Conv Size:3 Epochs: 250
+Optimizer: 1cycle L2 on?: 1 Epochs: 250
+Batch size: 32 Network blocks: 1,1
+
+Results on test: 
+
+Final training accuracy: 0.597, Final validation accuracy: 0.493
+Number of epochs trained: 31
+
+Validation set result:
+
+              precision    recall  f1-score   support
+
+           0       0.57      0.79      0.66      3900
+           1       0.20      0.22      0.21      3900
+           2       0.18      0.14      0.16      3900
+           3       0.24      0.33      0.28      3900
+           4       0.57      0.44      0.49      3900
+           5       0.52      0.52      0.52      3900
+           6       0.57      0.39      0.46      3900
+           7       0.42      0.37      0.39      3900
+
+    accuracy                           0.40     31200
+   macro avg       0.41      0.40      0.40     31200
+weighted avg       0.41      0.40      0.40     31200
+
+[[3097  136   29  176   41  113  198  110]
+ [ 874  877  373  308  371  455  320  322]
+ [  30  709  530 1951  167  299   38  176]
+ [ 224  446  343 1287  239  327  226  808]
+ [ 142  867  153  600 1700  163  107  168]
+ [ 304  531  480   59  220 2044  131  131]
+ [ 741  307   74  408  170  347 1531  322]
+ [  52  489  905  582   99  169  150 1454]]
+
+Experiment name: SampleWeight14, finished training at 28/02/2020 16:32:44 UTC
+Scaling:standard
+Hyperparams:
+
+Learning rate: 0.01 Dropout: 0.0 Mid dropout: 0.0
+Conv filters: 32 1st Conv size: 3 Mid Conv Size:3 Epochs: 250
+Optimizer: 1cycle L2 on?: 1 Epochs: 250
+Batch size: 32 Network blocks: 1,1
+
+Results on test: 
+
+Final training accuracy: 0.592, Final validation accuracy: 0.476
+Number of epochs trained: 51
+
+Validation set result:
+
+              precision    recall  f1-score   support
+
+           0       0.64      0.71      0.67      3900
+           1       0.25      0.12      0.16      3900
+           2       0.18      0.20      0.19      3900
+           3       0.28      0.29      0.28      3900
+           4       0.50      0.63      0.56      3900
+           5       0.54      0.48      0.51      3900
+           6       0.50      0.54      0.52      3900
+           7       0.38      0.41      0.40      3900
+
+    accuracy                           0.42     31200
+   macro avg       0.41      0.42      0.41     31200
+weighted avg       0.41      0.42      0.41     31200
+
+[[2768  141   80  128   64  144  522   53]
+ [ 657  449  684  183  719  384  534  290]
+ [  14  382  790 1258  505  245   70  636]
+ [ 124  213  513 1118  358  258  421  895]
+ [  80  152  362  418 2462  116   80  230]
+ [ 188  162  810   47  456 1862  230  145]
+ [ 466  116  134  271  224  277 2087  325]
+ [  42  156 1033  543  129  135  252 1610]]
+
+Experiment name: SampleWeight15, finished training at 28/02/2020 17:41:42 UTC
+Scaling:standard
+Hyperparams:
+
+Learning rate: 0.01 Dropout: 0.0 Mid dropout: 0.0
+Conv filters: 32 1st Conv size: 3 Mid Conv Size:3 Epochs: 250
+Optimizer: 1cycle L2 on?: 1 Epochs: 250
+Batch size: 32 Network blocks: 1,1
+
+Results on test: 
+
+Final training accuracy: 0.597, Final validation accuracy: 0.430
+Number of epochs trained: 29
+
+test set result:
+
+              precision    recall  f1-score   support
+
+           0       0.75      0.64      0.69      3900
+           1       0.33      0.23      0.27      3900
+           2       0.15      0.19      0.17      3900
+           3       0.23      0.40      0.29      3900
+           4       0.60      0.49      0.54      3900
+           5       0.53      0.38      0.44      3900
+           6       0.54      0.53      0.54      3900
+           7       0.29      0.27      0.28      3900
+
+    accuracy                           0.39     31200
+   macro avg       0.43      0.39      0.40     31200
+weighted avg       0.43      0.39      0.40     31200
+
+[[2499  224   43  290   44  171  486  143]
+ [ 326  910  532  401  405  345  604  377]
+ [   9  211  739 2245  118  132   15  431]
+ [ 109  194  576 1578  192  221  273  757]
+ [  41  409  250  849 1913   79   98  261]
+ [ 123  471  983  170  348 1486  173  146]
+ [ 201  165  191  422  144  295 2071  411]
+ [  36  164 1485  942   51   51  120 1051]]
+
+Experiment name: SampleWeight16, finished training at 29/02/2020 01:17:12 UTC
+Scaling:standard
+Hyperparams:
+
+Learning rate: 0.01 Dropout: 0.0 Mid dropout: 0.0
+Conv filters: 32 1st Conv size: 3 Mid Conv Size:3 Epochs: 250
+Optimizer: 1cycle L2 on?: 1 Epochs: 250
+Batch size: 32 Network blocks: 1,1
+
+Results on test: 
+
+Final training accuracy: 0.596, Final validation accuracy: 0.457
+Number of epochs trained: 31
+
+test set result:
+
+              precision    recall  f1-score   support
+
+           0       0.67      0.79      0.72      3900
+           1       0.29      0.19      0.23      3900
+           2       0.18      0.15      0.16      3900
+           3       0.24      0.27      0.26      3900
+           4       0.62      0.45      0.52      3900
+           5       0.56      0.46      0.50      3900
+           6       0.48      0.60      0.53      3900
+           7       0.30      0.44      0.36      3900
+
+    accuracy                           0.42     31200
+   macro avg       0.42      0.42      0.41     31200
+weighted avg       0.42      0.42      0.41     31200
+
+[[3071   88   10  138   47   97  367   82]
+ [ 526  727  340  217  317  352  872  549]
+ [  16  399  580 1385  103  270   46 1101]
+ [ 232  201  439 1068  191  283  429 1057]
+ [  70  442  125  660 1770  137  199  497]
+ [ 232  215  701   84  265 1775  419  209]
+ [ 373  105   67  338   79  192 2341  405]
+ [  58  323  983  486   81   75  183 1711]]
+
+Experiment name: SampleWeight17, finished training at 29/02/2020 02:20:50 UTC
+Scaling:standard
+Hyperparams:
+
+Learning rate: 0.01 Dropout: 0.0 Mid dropout: 0.0
+Conv filters: 32 1st Conv size: 3 Mid Conv Size:3 Epochs: 250
+Optimizer: 1cycle L2 on?: 1 Epochs: 250
+Batch size: 32 Network blocks: 1,1
+
+Results on test: 
+
+Final training accuracy: 0.594, Final validation accuracy: 0.469
+Number of epochs trained: 29
+
+test set result:
+
+              precision    recall  f1-score   support
+
+           0       0.66      0.74      0.70      3900
+           1       0.27      0.18      0.22      3900
+           2       0.17      0.17      0.17      3900
+           3       0.26      0.36      0.30      3900
+           4       0.63      0.40      0.49      3900
+           5       0.47      0.58      0.52      3900
+           6       0.55      0.51      0.53      3900
+           7       0.30      0.31      0.31      3900
+
+    accuracy                           0.41     31200
+   macro avg       0.41      0.41      0.40     31200
+weighted avg       0.41      0.41      0.40     31200
+
+[[2904  173   28  222   38  241  233   61]
+ [ 617  711  387  312  302  673  580  318]
+ [  10  184  663 1615   86  328   31  983]
+ [  97  194  511 1407  140  550  356  645]
+ [ 104  708  220  701 1554  171   54  388]
+ [ 166  275  629  107  153 2269  186  115]
+ [ 433  119   51  474   99  407 1978  339]
+ [  47  228 1312  583  100  202  203 1225]]
+
+Experiment name: SampleWeight18, finished training at 29/02/2020 03:30:27 UTC
+Scaling:standard
+Hyperparams:
+
+Learning rate: 0.01 Dropout: 0.0 Mid dropout: 0.0
+Conv filters: 32 1st Conv size: 3 Mid Conv Size:3 Epochs: 250
+Optimizer: 1cycle L2 on?: 1 Epochs: 250
+Batch size: 32 Network blocks: 1,1
+
+Results on test: 
+
+Final training accuracy: 0.595, Final validation accuracy: 0.467
+Number of epochs trained: 31
+
+test set result:
+
+              precision    recall  f1-score   support
+
+           0       0.61      0.76      0.68      3900
+           1       0.22      0.16      0.19      3900
+           2       0.16      0.16      0.16      3900
+           3       0.33      0.36      0.34      3900
+           4       0.41      0.60      0.49      3900
+           5       0.54      0.32      0.40      3900
+           6       0.50      0.52      0.51      3900
+           7       0.33      0.28      0.30      3900
+
+    accuracy                           0.39     31200
+   macro avg       0.39      0.39      0.38     31200
+weighted avg       0.39      0.39      0.38     31200
+
+[[2969   91   48  246  123   24  325   74]
+ [ 766  623  541  230  634  253  573  280]
+ [  45  681  622 1012  641  320   70  509]
+ [ 143  189  475 1396  528  186  299  684]
+ [  96  423  306  310 2342   73   92  258]
+ [ 232  430  773   78  750 1253  222  162]
+ [ 572  173   73  373  281  135 2016  277]
+ [  39  167 1076  582  434   94  421 1087]]
+
+Experiment name: SampleWeight19, finished training at 29/02/2020 04:43:04 UTC
+Scaling:standard
+Hyperparams:
+
+Learning rate: 0.01 Dropout: 0.0 Mid dropout: 0.0
+Conv filters: 32 1st Conv size: 3 Mid Conv Size:3 Epochs: 250
+Optimizer: 1cycle L2 on?: 1 Epochs: 250
+Batch size: 32 Network blocks: 1,1
+
+Results on test: 
+
+Final training accuracy: 0.595, Final validation accuracy: 0.479
+Number of epochs trained: 33
+
+test set result:
+
+              precision    recall  f1-score   support
+
+           0       0.61      0.78      0.68      3900
+           1       0.30      0.16      0.21      3900
+           2       0.15      0.13      0.14      3900
+           3       0.26      0.30      0.28      3900
+           4       0.52      0.62      0.57      3900
+           5       0.48      0.55      0.51      3900
+           6       0.54      0.51      0.52      3900
+           7       0.37      0.34      0.35      3900
+
+    accuracy                           0.42     31200
+   macro avg       0.40      0.42      0.41     31200
+weighted avg       0.40      0.42      0.41     31200
+
+[[3033   65   19  216   92  168  260   47]
+ [ 739  608  424  297  609  466  493  264]
+ [  31  298  517 1298  511  695   38  512]
+ [ 261  154  432 1166  360  444  309  774]
+ [  96  262  219  376 2425  186   85  251]
+ [ 195  166  571   83  319 2155  261  150]
+ [ 548  203   43  446  178  228 1981  273]
+ [  83  259 1112  633  133  137  232 1311]]
+
+Experiment name: SampleWeight20, finished training at 29/02/2020 06:07:27 UTC
+Scaling:standard
+Hyperparams:
+
+Learning rate: 0.01 Dropout: 0.0 Mid dropout: 0.0
+Conv filters: 32 1st Conv size: 3 Mid Conv Size:3 Epochs: 250
+Optimizer: 1cycle L2 on?: 1 Epochs: 250
+Batch size: 32 Network blocks: 1,1
+
+Results on test: 
+
+Final training accuracy: 0.595, Final validation accuracy: 0.458
+Number of epochs trained: 37
+
+test set result:
+
+              precision    recall  f1-score   support
+
+           0       0.67      0.73      0.70      3900
+           1       0.27      0.24      0.25      3900
+           2       0.19      0.12      0.15      3900
+           3       0.30      0.27      0.28      3900
+           4       0.51      0.61      0.55      3900
+           5       0.49      0.48      0.48      3900
+           6       0.50      0.51      0.51      3900
+           7       0.39      0.50      0.44      3900
+
+    accuracy                           0.43     31200
+   macro avg       0.41      0.43      0.42     31200
+weighted avg       0.41      0.43      0.42     31200
+
+[[2843  262   40  147  103  188  235   82]
+ [ 540  946  353  220  560  407  560  314]
+ [  19  611  467 1026  351  429   63  934]
+ [ 198  353  313 1050  446  303  456  781]
+ [  43  453  139  321 2368  156   71  349]
+ [ 118  370  424   45  536 1867  310  230]
+ [ 447  261   58  288  185  370 1984  307]
+ [  54  280  718  409  133   95  272 1939]]
+
+Experiment name: SampleWeight21, finished training at 29/02/2020 07:23:48 UTC
+Scaling:standard
+Hyperparams:
+
+Learning rate: 0.01 Dropout: 0.0 Mid dropout: 0.0
+Conv filters: 32 1st Conv size: 3 Mid Conv Size:3 Epochs: 250
+Optimizer: 1cycle L2 on?: 1 Epochs: 250
+Batch size: 32 Network blocks: 1,1
+
+Results on test: 
+
+Final training accuracy: 0.595, Final validation accuracy: 0.457
+Number of epochs trained: 34
+
+test set result:
+
+              precision    recall  f1-score   support
+
+           0       0.63      0.79      0.70      3900
+           1       0.28      0.37      0.32      3900
+           2       0.17      0.13      0.15      3900
+           3       0.23      0.37      0.28      3900
+           4       0.59      0.45      0.51      3900
+           5       0.54      0.35      0.42      3900
+           6       0.58      0.40      0.47      3900
+           7       0.41      0.39      0.40      3900
+
+    accuracy                           0.41     31200
+   macro avg       0.43      0.41      0.41     31200
+weighted avg       0.43      0.41      0.41     31200
+
+[[3064  287   29  207   40   71  149   53]
+ [ 625 1451  357  370  409  273  216  199]
+ [  27  401  518 2189   89  197   18  461]
+ [ 216  400  385 1443  131  219  357  749]
+ [ 124  784  186  777 1760   57   25  187]
+ [ 231  911  562  239  216 1357  183  201]
+ [ 585  505   67  499  131  244 1548  321]
+ [  28  359  942  580  226   99  153 1513]]
+
+Experiment name: SampleWeight22, finished training at 29/02/2020 08:29:54 UTC
+Scaling:standard
+Hyperparams:
+
+Learning rate: 0.01 Dropout: 0.0 Mid dropout: 0.0
+Conv filters: 32 1st Conv size: 3 Mid Conv Size:3 Epochs: 250
+Optimizer: 1cycle L2 on?: 1 Epochs: 250
+Batch size: 32 Network blocks: 1,1
+
+Results on test: 
+
+Final training accuracy: 0.595, Final validation accuracy: 0.451
+Number of epochs trained: 29
+
+test set result:
+
+              precision    recall  f1-score   support
+
+           0       0.66      0.63      0.65      3900
+           1       0.30      0.16      0.21      3900
+           2       0.23      0.23      0.23      3900
+           3       0.27      0.26      0.27      3900
+           4       0.54      0.51      0.52      3900
+           5       0.42      0.69      0.52      3900
+           6       0.49      0.49      0.49      3900
+           7       0.38      0.36      0.37      3900
+
+    accuracy                           0.42     31200
+   macro avg       0.41      0.42      0.41     31200
+weighted avg       0.41      0.42      0.41     31200
+
+[[2467  127   83  162   59  423  511   68]
+ [ 512  615  478  186  378  856  523  352]
+ [  12  286  900 1001  443  691   77  490]
+ [ 131  260  476 1028  285  665  382  673]
+ [  43  376  329  424 1980  278  114  356]
+ [ 113   97  511   31  195 2693  147  113]
+ [ 401  126  100  360  116  598 1897  302]
+ [  35  139 1044  638  188  212  230 1414]]
+
+Experiment name: SampleWeight23, finished training at 29/02/2020 09:43:31 UTC
+Scaling:standard
+Hyperparams:
+
+Learning rate: 0.01 Dropout: 0.0 Mid dropout: 0.0
+Conv filters: 32 1st Conv size: 3 Mid Conv Size:3 Epochs: 250
+Optimizer: 1cycle L2 on?: 1 Epochs: 250
+Batch size: 32 Network blocks: 1,1
+
+Results on test: 
+
+Final training accuracy: 0.596, Final validation accuracy: 0.465
+Number of epochs trained: 33
+
+test set result:
+
+              precision    recall  f1-score   support
+
+           0       0.62      0.76      0.68      3900
+           1       0.24      0.22      0.23      3900
+           2       0.18      0.14      0.16      3900
+           3       0.28      0.26      0.27      3900
+           4       0.50      0.63      0.56      3900
+           5       0.49      0.53      0.51      3900
+           6       0.55      0.48      0.51      3900
+           7       0.38      0.34      0.36      3900
+
+    accuracy                           0.42     31200
+   macro avg       0.40      0.42      0.41     31200
+weighted avg       0.40      0.42      0.41     31200
+
+[[2971  217   14   73   72  172  291   90]
+ [ 809  876  286  158  555  493  411  312]
+ [  27  502  548 1315  643  564   36  265]
+ [ 227  320  479 1029  384  345  310  806]
+ [  65  495  108  306 2455  181   69  221]
+ [ 181  380  428   25  470 2069  210  137]
+ [ 499  372   39  275  165  317 1853  380]
+ [  44  517 1074  457  166   99  201 1342]]
+
+Experiment name: SampleWeight24, finished training at 29/02/2020 10:49:22 UTC
+Scaling:standard
+Hyperparams:
+
+Learning rate: 0.01 Dropout: 0.0 Mid dropout: 0.0
+Conv filters: 32 1st Conv size: 3 Mid Conv Size:3 Epochs: 250
+Optimizer: 1cycle L2 on?: 1 Epochs: 250
+Batch size: 32 Network blocks: 1,1
+
+Results on test: 
+
+Final training accuracy: 0.594, Final validation accuracy: 0.470
+Number of epochs trained: 29
+
+test set result:
+
+              precision    recall  f1-score   support
+
+           0       0.65      0.72      0.69      3900
+           1       0.33      0.19      0.24      3900
+           2       0.13      0.09      0.11      3900
+           3       0.26      0.27      0.27      3900
+           4       0.40      0.64      0.49      3900
+           5       0.46      0.39      0.42      3900
+           6       0.48      0.49      0.48      3900
+           7       0.34      0.38      0.36      3900
+
+    accuracy                           0.40     31200
+   macro avg       0.38      0.40      0.38     31200
+weighted avg       0.38      0.40      0.38     31200
+
+[[2816  167   53  199   93  183  288  101]
+ [ 636  729  354  190  759  375  506  351]
+ [   4   95  366 1374  962  305  114  680]
+ [ 141  199  334 1059  479  327  419  942]
+ [  62  246  180  417 2498  106  146  245]
+ [ 263  242  421   81  815 1520  403  155]
+ [ 351  294   91  343  220  322 1911  368]
+ [  39  227  952  389  464  157  195 1477]]
+
+Experiment name: SampleWeight25, finished training at 29/02/2020 11:52:21 UTC
+Scaling:standard
+Hyperparams:
+
+Learning rate: 0.01 Dropout: 0.0 Mid dropout: 0.0
+Conv filters: 32 1st Conv size: 3 Mid Conv Size:3 Epochs: 250
+Optimizer: 1cycle L2 on?: 1 Epochs: 250
+Batch size: 32 Network blocks: 1,1
+
+Results on test: 
+
+Final training accuracy: 0.595, Final validation accuracy: 0.479
+Number of epochs trained: 29
+
+test set result:
+
+              precision    recall  f1-score   support
+
+           0       0.62      0.75      0.68      3900
+           1       0.24      0.22      0.23      3900
+           2       0.20      0.17      0.18      3900
+           3       0.33      0.24      0.28      3900
+           4       0.57      0.55      0.56      3900
+           5       0.46      0.53      0.49      3900
+           6       0.56      0.40      0.46      3900
+           7       0.29      0.42      0.35      3900
+
+    accuracy                           0.41     31200
+   macro avg       0.41      0.41      0.40     31200
+weighted avg       0.41      0.41      0.40     31200
+
+[[2921  223   45  110   63  232  221   85]
+ [ 662  856  446  116  448  663  346  363]
+ [  13  635  674  827  179  232   57 1283]
+ [ 154  309  355  940  293  410  298 1141]
+ [ 108  526  205  345 2136  155   30  395]
+ [ 106  363  626   10  309 2057  120  309]
+ [ 665  359   62  131  139  560 1548  436]
+ [  47  283 1023  376  150  197  168 1656]]
+

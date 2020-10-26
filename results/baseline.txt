@@ -1,0 +1,1000 @@
+Experiment name: Baseline1, finished training at 27/02/2020 23:15:26 UTC
+Scaling:standard
+Hyperparams:
+
+Learning rate: 0.01 Dropout: 0.0 Mid dropout: 0.0
+Conv filters: 32 1st Conv size: 3 Mid Conv Size:3 Epochs: 250
+Optimizer: 1cycle L2 on?: 1 Epochs: 250
+Batch size: 32 Network blocks: 1,1
+
+Results on test: 
+
+Final training accuracy: 0.596, Final validation accuracy: 0.463
+Number of epochs trained: 29
+
+Validation set result:
+
+              precision    recall  f1-score   support
+
+           0       0.63      0.72      0.67      3900
+           1       0.21      0.15      0.18      3900
+           2       0.21      0.24      0.22      3900
+           3       0.23      0.28      0.25      3900
+           4       0.53      0.55      0.54      3900
+           5       0.44      0.32      0.37      3900
+           6       0.54      0.43      0.48      3900
+           7       0.32      0.38      0.35      3900
+
+    accuracy                           0.39     31200
+   macro avg       0.39      0.39      0.38     31200
+weighted avg       0.39      0.39      0.38     31200
+
+[[2808   91   56  214  112  182  317  120]
+ [ 703  585  517  252  582  336  426  499]
+ [   8  370  942 1744  128  256   52  400]
+ [ 144  257  534 1106  314  276  290  979]
+ [ 129  351  287  566 2157  131   53  226]
+ [ 191  493  845   54  529 1245  249  294]
+ [ 454  167   65  478  160  290 1682  604]
+ [  36  435 1242  411  111  102   71 1492]]
+
+Experiment name: Baseline2, finished training at 28/02/2020 00:31:19 UTC
+Scaling:standard
+Hyperparams:
+
+Learning rate: 0.01 Dropout: 0.0 Mid dropout: 0.0
+Conv filters: 32 1st Conv size: 3 Mid Conv Size:3 Epochs: 250
+Optimizer: 1cycle L2 on?: 1 Epochs: 250
+Batch size: 32 Network blocks: 1,1
+
+Results on test: 
+
+Final training accuracy: 0.595, Final validation accuracy: 0.470
+Number of epochs trained: 31
+
+Validation set result:
+
+              precision    recall  f1-score   support
+
+           0       0.61      0.78      0.68      3900
+           1       0.30      0.17      0.22      3900
+           2       0.19      0.16      0.17      3900
+           3       0.27      0.46      0.34      3900
+           4       0.57      0.44      0.50      3900
+           5       0.48      0.57      0.52      3900
+           6       0.54      0.41      0.47      3900
+           7       0.35      0.31      0.33      3900
+
+    accuracy                           0.41     31200
+   macro avg       0.41      0.41      0.40     31200
+weighted avg       0.41      0.41      0.40     31200
+
+[[3048   43   29  265   50  186  219   60]
+ [ 811  679  430  368  362  615  354  281]
+ [  18  229  608 1905  219  368   41  512]
+ [ 159  192  291 1791  217  401  252  597]
+ [ 113  569  304  540 1732  228  143  271]
+ [ 226  242  557  117  197 2226  196  139]
+ [ 591  154  103  559  188  373 1616  316]
+ [  51  145  859 1182   84  231  158 1190]]
+
+Experiment name: Baseline3, finished training at 28/02/2020 01:53:46 UTC
+Scaling:standard
+Hyperparams:
+
+Learning rate: 0.01 Dropout: 0.0 Mid dropout: 0.0
+Conv filters: 32 1st Conv size: 3 Mid Conv Size:3 Epochs: 250
+Optimizer: 1cycle L2 on?: 1 Epochs: 250
+Batch size: 32 Network blocks: 1,1
+
+Results on test: 
+
+Final training accuracy: 0.595, Final validation accuracy: 0.458
+Number of epochs trained: 34
+
+Validation set result:
+
+              precision    recall  f1-score   support
+
+           0       0.55      0.79      0.65      3900
+           1       0.30      0.14      0.19      3900
+           2       0.23      0.14      0.17      3900
+           3       0.27      0.44      0.33      3900
+           4       0.56      0.58      0.57      3900
+           5       0.51      0.52      0.51      3900
+           6       0.56      0.35      0.43      3900
+           7       0.35      0.41      0.38      3900
+
+    accuracy                           0.42     31200
+   macro avg       0.42      0.42      0.40     31200
+weighted avg       0.42      0.42      0.40     31200
+
+[[3097   58   20  248   89  175  131   82]
+ [ 919  532  198  467  555  442  307  480]
+ [  13  318  537 1697  235  333   10  757]
+ [ 200  173  238 1724  268  354  286  657]
+ [ 109  248  113  654 2251  138   93  294]
+ [ 405  190  489  130  335 2016   96  239]
+ [ 832   98   28  588  152  335 1373  494]
+ [  49  133  717  923  138  179  159 1602]]
+
+Experiment name: Baseline4, finished training at 28/02/2020 03:08:39 UTC
+Scaling:standard
+Hyperparams:
+
+Learning rate: 0.01 Dropout: 0.0 Mid dropout: 0.0
+Conv filters: 32 1st Conv size: 3 Mid Conv Size:3 Epochs: 250
+Optimizer: 1cycle L2 on?: 1 Epochs: 250
+Batch size: 32 Network blocks: 1,1
+
+Results on test: 
+
+Final training accuracy: 0.595, Final validation accuracy: 0.459
+Number of epochs trained: 30
+
+Validation set result:
+
+              precision    recall  f1-score   support
+
+           0       0.71      0.67      0.69      3900
+           1       0.22      0.28      0.25      3900
+           2       0.27      0.27      0.27      3900
+           3       0.34      0.27      0.30      3900
+           4       0.59      0.42      0.49      3900
+           5       0.37      0.36      0.37      3900
+           6       0.56      0.51      0.53      3900
+           7       0.33      0.48      0.39      3900
+
+    accuracy                           0.41     31200
+   macro avg       0.43      0.41      0.41     31200
+weighted avg       0.43      0.41      0.41     31200
+
+[[2617  263   26  167   60  372  262  133]
+ [ 450 1085  304  204  279  517  500  561]
+ [   6  822 1036  572  207  308   27  922]
+ [ 106  435  339 1065  199  386  247 1123]
+ [  33  941  155  362 1646  178  220  365]
+ [ 156  732  867   40  241 1420  196  248]
+ [ 273  307  107  343   67  396 1990  417]
+ [  22  239  937  376   73  260  136 1857]]
+
+Experiment name: Baseline5, finished training at 28/02/2020 04:20:19 UTC
+Scaling:standard
+Hyperparams:
+
+Learning rate: 0.01 Dropout: 0.0 Mid dropout: 0.0
+Conv filters: 32 1st Conv size: 3 Mid Conv Size:3 Epochs: 250
+Optimizer: 1cycle L2 on?: 1 Epochs: 250
+Batch size: 32 Network blocks: 1,1
+
+Results on test: 
+
+Final training accuracy: 0.595, Final validation accuracy: 0.462
+Number of epochs trained: 30
+
+Validation set result:
+
+              precision    recall  f1-score   support
+
+           0       0.55      0.82      0.66      3900
+           1       0.38      0.11      0.17      3900
+           2       0.14      0.11      0.13      3900
+           3       0.23      0.27      0.25      3900
+           4       0.54      0.68      0.60      3900
+           5       0.47      0.24      0.32      3900
+           6       0.54      0.50      0.52      3900
+           7       0.34      0.53      0.41      3900
+
+    accuracy                           0.41     31200
+   macro avg       0.40      0.41      0.38     31200
+weighted avg       0.40      0.41      0.38     31200
+
+[[3204   41   16  155   96   73  261   54]
+ [ 901  434  389  127  686  239  596  528]
+ [  32  118  447 1936  313  176   27  851]
+ [ 266   88  321 1049  362  234  317 1263]
+ [ 101  102  159  335 2633  103   85  382]
+ [ 490  176  885   83  602  929  249  486]
+ [ 729   89   71  372  115  171 1931  422]
+ [  74   87  877  564   72   56  113 2057]]
+
+Experiment name: Baseline6, finished training at 28/02/2020 05:28:27 UTC
+Scaling:standard
+Hyperparams:
+
+Learning rate: 0.01 Dropout: 0.0 Mid dropout: 0.0
+Conv filters: 32 1st Conv size: 3 Mid Conv Size:3 Epochs: 250
+Optimizer: 1cycle L2 on?: 1 Epochs: 250
+Batch size: 32 Network blocks: 1,1
+
+Results on test: 
+
+Final training accuracy: 0.594, Final validation accuracy: 0.468
+Number of epochs trained: 28
+
+Validation set result:
+
+              precision    recall  f1-score   support
+
+           0       0.62      0.72      0.67      3900
+           1       0.25      0.22      0.23      3900
+           2       0.21      0.26      0.23      3900
+           3       0.29      0.28      0.28      3900
+           4       0.51      0.52      0.52      3900
+           5       0.41      0.52      0.46      3900
+           6       0.54      0.30      0.38      3900
+           7       0.38      0.33      0.35      3900
+
+    accuracy                           0.39     31200
+   macro avg       0.40      0.39      0.39     31200
+weighted avg       0.40      0.39      0.39     31200
+
+[[2807  173   76  247   57  263  233   44]
+ [ 691  872  491  220  536  579  240  271]
+ [  10  587 1005  857  446  450    5  540]
+ [ 139  340  722 1083  288  554  173  601]
+ [  41  518  271  363 2019  236  167  285]
+ [ 174  439  754   71  225 2024  109  104]
+ [ 590  267  170  569  156  674 1158  316]
+ [  44  348 1390  362  195  184   75 1302]]
+
+Experiment name: Baseline7, finished training at 28/02/2020 06:46:06 UTC
+Scaling:standard
+Hyperparams:
+
+Learning rate: 0.01 Dropout: 0.0 Mid dropout: 0.0
+Conv filters: 32 1st Conv size: 3 Mid Conv Size:3 Epochs: 250
+Optimizer: 1cycle L2 on?: 1 Epochs: 250
+Batch size: 32 Network blocks: 1,1
+
+Results on test: 
+
+Final training accuracy: 0.597, Final validation accuracy: 0.450
+Number of epochs trained: 31
+
+Validation set result:
+
+              precision    recall  f1-score   support
+
+           0       0.62      0.78      0.69      3900
+           1       0.28      0.24      0.26      3900
+           2       0.20      0.22      0.21      3900
+           3       0.34      0.22      0.27      3900
+           4       0.46      0.65      0.54      3900
+           5       0.48      0.41      0.44      3900
+           6       0.52      0.45      0.48      3900
+           7       0.37      0.37      0.37      3900
+
+    accuracy                           0.42     31200
+   macro avg       0.41      0.42      0.41     31200
+weighted avg       0.41      0.42      0.41     31200
+
+[[3036  165   68  113  130  168  189   31]
+ [ 715  931  510   95  605  432  411  201]
+ [  12  407  869  706  790  221   70  825]
+ [ 157  273  588  855  518  346  429  734]
+ [  47  452  257  136 2521  163   78  246]
+ [ 231  430  648   15  614 1616  223  123]
+ [ 650  377  213  193  154  283 1756  274]
+ [  51  259 1219  424  156  140  192 1459]]
+
+Experiment name: Baseline8, finished training at 28/02/2020 08:10:26 UTC
+Scaling:standard
+Hyperparams:
+
+Learning rate: 0.01 Dropout: 0.0 Mid dropout: 0.0
+Conv filters: 32 1st Conv size: 3 Mid Conv Size:3 Epochs: 250
+Optimizer: 1cycle L2 on?: 1 Epochs: 250
+Batch size: 32 Network blocks: 1,1
+
+Results on test: 
+
+Final training accuracy: 0.594, Final validation accuracy: 0.463
+Number of epochs trained: 35
+
+Validation set result:
+
+              precision    recall  f1-score   support
+
+           0       0.59      0.79      0.67      3900
+           1       0.26      0.25      0.25      3900
+           2       0.20      0.22      0.21      3900
+           3       0.29      0.29      0.29      3900
+           4       0.66      0.54      0.60      3900
+           5       0.52      0.46      0.49      3900
+           6       0.56      0.37      0.45      3900
+           7       0.30      0.38      0.34      3900
+
+    accuracy                           0.41     31200
+   macro avg       0.42      0.41      0.41     31200
+weighted avg       0.42      0.41      0.41     31200
+
+[[3065  206   56  152   32  131  143  115]
+ [ 858  957  410  253  327  376  320  399]
+ [  15  768  845  970  101  173   53  975]
+ [ 191  335  472 1147  215  328  229  983]
+ [ 114  422  211  478 2123  105   93  354]
+ [ 195  302  876   74  248 1779  169  257]
+ [ 738  399  143  359   59  454 1446  302]
+ [  36  360 1210  533   99   72  117 1473]]
+
+Experiment name: Baseline9, finished training at 28/02/2020 09:35:12 UTC
+Scaling:standard
+Hyperparams:
+
+Learning rate: 0.01 Dropout: 0.0 Mid dropout: 0.0
+Conv filters: 32 1st Conv size: 3 Mid Conv Size:3 Epochs: 250
+Optimizer: 1cycle L2 on?: 1 Epochs: 250
+Batch size: 32 Network blocks: 1,1
+
+Results on test: 
+
+Final training accuracy: 0.597, Final validation accuracy: 0.424
+Number of epochs trained: 35
+
+Validation set result:
+
+              precision    recall  f1-score   support
+
+           0       0.66      0.71      0.68      3900
+           1       0.27      0.13      0.18      3900
+           2       0.20      0.11      0.14      3900
+           3       0.26      0.42      0.32      3900
+           4       0.52      0.59      0.55      3900
+           5       0.53      0.44      0.48      3900
+           6       0.55      0.46      0.50      3900
+           7       0.34      0.50      0.41      3900
+
+    accuracy                           0.42     31200
+   macro avg       0.41      0.42      0.41     31200
+weighted avg       0.41      0.42      0.41     31200
+
+[[2775   48   16  397   91   88  378  107]
+ [ 724  522  258  450  696  398  403  449]
+ [  18  320  431 1367  483  188   23 1070]
+ [ 108  151  241 1625  239  333  220  983]
+ [ 101  262  107  629 2295   76  116  314]
+ [ 165  389  429  191  376 1708  243  399]
+ [ 300  115   31  795  151  324 1790  394]
+ [  42  158  691  754   86  109  110 1950]]
+
+Experiment name: Baseline10, finished training at 28/02/2020 10:47:14 UTC
+Scaling:standard
+Hyperparams:
+
+Learning rate: 0.01 Dropout: 0.0 Mid dropout: 0.0
+Conv filters: 32 1st Conv size: 3 Mid Conv Size:3 Epochs: 250
+Optimizer: 1cycle L2 on?: 1 Epochs: 250
+Batch size: 32 Network blocks: 1,1
+
+Results on test: 
+
+Final training accuracy: 0.595, Final validation accuracy: 0.456
+Number of epochs trained: 30
+
+Validation set result:
+
+              precision    recall  f1-score   support
+
+           0       0.57      0.82      0.67      3900
+           1       0.29      0.19      0.23      3900
+           2       0.22      0.20      0.21      3900
+           3       0.23      0.39      0.29      3900
+           4       0.56      0.43      0.49      3900
+           5       0.57      0.47      0.52      3900
+           6       0.57      0.49      0.52      3900
+           7       0.39      0.34      0.37      3900
+
+    accuracy                           0.42     31200
+   macro avg       0.43      0.42      0.41     31200
+weighted avg       0.43      0.42      0.41     31200
+
+[[3196  104   20  194   43   94  195   54]
+ [1002  724  399  365  377  321  480  232]
+ [  26  292  793 1988  176  233   33  359]
+ [ 238  175  382 1506  250  347  272  730]
+ [ 163  326  178 1126 1673   86  124  224]
+ [ 290  371  640  146  250 1849  241  113]
+ [ 629  238   73  467   76  197 1898  322]
+ [  86  284 1046  800  132  114  113 1325]]
+
+Experiment name: Baseline11, finished training at 28/02/2020 11:53:58 UTC
+Scaling:standard
+Hyperparams:
+
+Learning rate: 0.01 Dropout: 0.0 Mid dropout: 0.0
+Conv filters: 32 1st Conv size: 3 Mid Conv Size:3 Epochs: 250
+Optimizer: 1cycle L2 on?: 1 Epochs: 250
+Batch size: 32 Network blocks: 1,1
+
+Results on test: 
+
+Final training accuracy: 0.596, Final validation accuracy: 0.478
+Number of epochs trained: 27
+
+Validation set result:
+
+              precision    recall  f1-score   support
+
+           0       0.64      0.72      0.68      3900
+           1       0.31      0.25      0.28      3900
+           2       0.16      0.13      0.15      3900
+           3       0.24      0.30      0.27      3900
+           4       0.46      0.56      0.51      3900
+           5       0.47      0.37      0.41      3900
+           6       0.55      0.45      0.49      3900
+           7       0.35      0.41      0.37      3900
+
+    accuracy                           0.40     31200
+   macro avg       0.40      0.40      0.39     31200
+weighted avg       0.40      0.40      0.39     31200
+
+[[2821  193   42  198   94  184  298   70]
+ [ 603  975  340  268  655  332  377  350]
+ [  20  439  519 1651  306  235   35  695]
+ [ 140  248  410 1183  397  322  212  988]
+ [  50  372  140  561 2183  124  149  321]
+ [ 226  365  698  103  671 1425  246  166]
+ [ 494  253   68  376  214  334 1752  409]
+ [  80  273 1024  532  214   74  115 1588]]
+
+Experiment name: Baseline12, finished training at 28/02/2020 13:04:10 UTC
+Scaling:standard
+Hyperparams:
+
+Learning rate: 0.01 Dropout: 0.0 Mid dropout: 0.0
+Conv filters: 32 1st Conv size: 3 Mid Conv Size:3 Epochs: 250
+Optimizer: 1cycle L2 on?: 1 Epochs: 250
+Batch size: 32 Network blocks: 1,1
+
+Results on test: 
+
+Final training accuracy: 0.595, Final validation accuracy: 0.457
+Number of epochs trained: 29
+
+Validation set result:
+
+              precision    recall  f1-score   support
+
+           0       0.63      0.73      0.68      3900
+           1       0.28      0.24      0.26      3900
+           2       0.18      0.17      0.17      3900
+           3       0.26      0.33      0.29      3900
+           4       0.57      0.56      0.57      3900
+           5       0.58      0.27      0.37      3900
+           6       0.49      0.63      0.55      3900
+           7       0.34      0.33      0.34      3900
+
+    accuracy                           0.41     31200
+   macro avg       0.42      0.41      0.40     31200
+weighted avg       0.42      0.41      0.40     31200
+
+[[2850  108   36  215   38   78  520   55]
+ [ 786  918  357  195  445  221  714  264]
+ [  18  558  676 1601  122   76  102  747]
+ [ 166  272  476 1287  330  185  448  736]
+ [  87  583  171  413 2190   37  122  297]
+ [ 207  500 1034   99  420 1058  380  202]
+ [ 361  132   65  427  100  124 2461  230]
+ [  56  228 1033  779  173   34  303 1294]]
+
+Experiment name: Baseline13, finished training at 28/02/2020 14:19:00 UTC
+Scaling:standard
+Hyperparams:
+
+Learning rate: 0.01 Dropout: 0.0 Mid dropout: 0.0
+Conv filters: 32 1st Conv size: 3 Mid Conv Size:3 Epochs: 250
+Optimizer: 1cycle L2 on?: 1 Epochs: 250
+Batch size: 32 Network blocks: 1,1
+
+Results on test: 
+
+Final training accuracy: 0.593, Final validation accuracy: 0.448
+Number of epochs trained: 31
+
+Validation set result:
+
+              precision    recall  f1-score   support
+
+           0       0.58      0.77      0.66      3900
+           1       0.27      0.20      0.23      3900
+           2       0.20      0.23      0.21      3900
+           3       0.26      0.31      0.28      3900
+           4       0.46      0.60      0.52      3900
+           5       0.51      0.36      0.42      3900
+           6       0.57      0.43      0.49      3900
+           7       0.27      0.22      0.24      3900
+
+    accuracy                           0.39     31200
+   macro avg       0.39      0.39      0.38     31200
+weighted avg       0.39      0.39      0.38     31200
+
+[[2990  122   55  260   95   78  169  131]
+ [ 816  767  465  295  593  252  382  330]
+ [  23  622  892 1175  444  346   36  362]
+ [ 221  231  504 1203  416  283  219  823]
+ [ 138  319  215  553 2339   59   69  208]
+ [ 288  308  849   67  678 1407  207   96]
+ [ 615  226  126  467  196  213 1691  366]
+ [  56  252 1428  678  299  132  198  857]]
+
+Experiment name: Baseline14, finished training at 28/02/2020 15:28:36 UTC
+Scaling:standard
+Hyperparams:
+
+Learning rate: 0.01 Dropout: 0.0 Mid dropout: 0.0
+Conv filters: 32 1st Conv size: 3 Mid Conv Size:3 Epochs: 250
+Optimizer: 1cycle L2 on?: 1 Epochs: 250
+Batch size: 32 Network blocks: 1,1
+
+Results on test: 
+
+Final training accuracy: 0.597, Final validation accuracy: 0.449
+Number of epochs trained: 29
+
+Validation set result:
+
+              precision    recall  f1-score   support
+
+           0       0.66      0.68      0.67      3900
+           1       0.24      0.20      0.22      3900
+           2       0.18      0.15      0.16      3900
+           3       0.27      0.28      0.28      3900
+           4       0.57      0.47      0.52      3900
+           5       0.49      0.42      0.45      3900
+           6       0.51      0.44      0.47      3900
+           7       0.28      0.46      0.34      3900
+
+    accuracy                           0.39     31200
+   macro avg       0.40      0.39      0.39     31200
+weighted avg       0.40      0.39      0.39     31200
+
+[[2641  210   21  220   69  252  318  169]
+ [ 619  794  296  207  427  449  472  636]
+ [   4  353  582 1142  231  170   36 1382]
+ [ 145  319  370 1107  246  334  296 1083]
+ [  61  524  183  356 1851  123  219  583]
+ [ 180  513  760   72  249 1648  228  250]
+ [ 342  320  124  330   95  333 1735  621]
+ [  36  232  910  658   97   60  115 1792]]
+
+Experiment name: Baseline15, finished training at 28/02/2020 16:36:30 UTC
+Scaling:standard
+Hyperparams:
+
+Learning rate: 0.01 Dropout: 0.0 Mid dropout: 0.0
+Conv filters: 32 1st Conv size: 3 Mid Conv Size:3 Epochs: 250
+Optimizer: 1cycle L2 on?: 1 Epochs: 250
+Batch size: 32 Network blocks: 1,1
+
+Results on test: 
+
+Final training accuracy: 0.595, Final validation accuracy: 0.478
+Number of epochs trained: 27
+
+test set result:
+
+              precision    recall  f1-score   support
+
+           0       0.61      0.75      0.67      3900
+           1       0.34      0.11      0.16      3900
+           2       0.22      0.19      0.21      3900
+           3       0.22      0.37      0.28      3900
+           4       0.55      0.50      0.52      3900
+           5       0.53      0.46      0.49      3900
+           6       0.49      0.47      0.48      3900
+           7       0.32      0.38      0.35      3900
+
+    accuracy                           0.40     31200
+   macro avg       0.41      0.40      0.39     31200
+weighted avg       0.41      0.40      0.39     31200
+
+[[2921   41   23  262   81  183  320   69]
+ [ 763  412  360  359  553  377  659  417]
+ [  17  146  740 1761  118  206   27  885]
+ [ 221  121  404 1451  240  297  270  896]
+ [ 136  115  188  907 1962  102  158  332]
+ [ 249  159  590  212  370 1788  288  244]
+ [ 445   88   82  607  154  361 1830  333]
+ [  61  141  911  922  118   87  170 1490]]
+
+Experiment name: Baseline16, finished training at 28/02/2020 17:44:47 UTC
+Scaling:standard
+Hyperparams:
+
+Learning rate: 0.01 Dropout: 0.0 Mid dropout: 0.0
+Conv filters: 32 1st Conv size: 3 Mid Conv Size:3 Epochs: 250
+Optimizer: 1cycle L2 on?: 1 Epochs: 250
+Batch size: 32 Network blocks: 1,1
+
+Results on test: 
+
+Final training accuracy: 0.594, Final validation accuracy: 0.486
+Number of epochs trained: 29
+
+test set result:
+
+              precision    recall  f1-score   support
+
+           0       0.68      0.71      0.70      3900
+           1       0.31      0.25      0.27      3900
+           2       0.18      0.16      0.17      3900
+           3       0.30      0.32      0.31      3900
+           4       0.59      0.47      0.52      3900
+           5       0.53      0.52      0.53      3900
+           6       0.47      0.50      0.49      3900
+           7       0.32      0.43      0.37      3900
+
+    accuracy                           0.42     31200
+   macro avg       0.42      0.42      0.42     31200
+weighted avg       0.42      0.42      0.42     31200
+
+[[2785  140   23  291   16  187  380   78]
+ [ 536  958  377  230  299  378  643  479]
+ [  13  382  617 1041  249  345   61 1192]
+ [ 149  192  459 1256  249  401  273  921]
+ [  75  715  160  419 1815  116  208  392]
+ [ 106  261  635  105  205 2046  352  190]
+ [ 381  202  127  513   67  300 1951  359]
+ [  41  280  963  378  197  103  253 1685]]
+
+Experiment name: Baseline17, finished training at 29/02/2020 01:25:07 UTC
+Scaling:standard
+Hyperparams:
+
+Learning rate: 0.01 Dropout: 0.0 Mid dropout: 0.0
+Conv filters: 32 1st Conv size: 3 Mid Conv Size:3 Epochs: 250
+Optimizer: 1cycle L2 on?: 1 Epochs: 250
+Batch size: 32 Network blocks: 1,1
+
+Results on test: 
+
+Final training accuracy: 0.595, Final validation accuracy: 0.436
+Number of epochs trained: 35
+
+test set result:
+
+              precision    recall  f1-score   support
+
+           0       0.71      0.68      0.69      3900
+           1       0.27      0.19      0.22      3900
+           2       0.19      0.16      0.18      3900
+           3       0.26      0.34      0.29      3900
+           4       0.54      0.48      0.51      3900
+           5       0.51      0.41      0.45      3900
+           6       0.46      0.61      0.52      3900
+           7       0.35      0.41      0.38      3900
+
+    accuracy                           0.41     31200
+   macro avg       0.41      0.41      0.41     31200
+weighted avg       0.41      0.41      0.41     31200
+
+[[2639  102   42  233   66  164  560   94]
+ [ 471  747  364  313  448  378  741  438]
+ [   8  573  640 1418  174  288   55  744]
+ [  59  297  354 1318  282  289  573  728]
+ [  91  435  220  582 1891  103  182  396]
+ [ 149  282  750  115  416 1586  407  195]
+ [ 252  119   87  403  107  231 2367  334]
+ [  35  186  935  726   91   59  275 1593]]
+
+Experiment name: Baseline18, finished training at 29/02/2020 02:52:27 UTC
+Scaling:standard
+Hyperparams:
+
+Learning rate: 0.01 Dropout: 0.0 Mid dropout: 0.0
+Conv filters: 32 1st Conv size: 3 Mid Conv Size:3 Epochs: 250
+Optimizer: 1cycle L2 on?: 1 Epochs: 250
+Batch size: 32 Network blocks: 1,1
+
+Results on test: 
+
+Final training accuracy: 0.594, Final validation accuracy: 0.472
+Number of epochs trained: 40
+
+test set result:
+
+              precision    recall  f1-score   support
+
+           0       0.62      0.76      0.68      3900
+           1       0.27      0.20      0.23      3900
+           2       0.20      0.25      0.22      3900
+           3       0.25      0.30      0.27      3900
+           4       0.59      0.53      0.56      3900
+           5       0.53      0.31      0.39      3900
+           6       0.54      0.45      0.49      3900
+           7       0.31      0.38      0.34      3900
+
+    accuracy                           0.40     31200
+   macro avg       0.41      0.40      0.40     31200
+weighted avg       0.41      0.40      0.40     31200
+
+[[2972  158   70  202   56  107  215  120]
+ [ 675  765  587  222  444  205  467  535]
+ [   8  358  988 1505  212  242    6  581]
+ [ 199  218  599 1161  248  225  300  950]
+ [ 140  454  255  436 2078   83  154  300]
+ [ 282  483 1083   55  300 1210  238  249]
+ [ 509  306  110  450   85  178 1769  493]
+ [  36  131 1363  601  108   47  144 1470]]
+
+Experiment name: Baseline19, finished training at 29/02/2020 03:52:47 UTC
+Scaling:standard
+Hyperparams:
+
+Learning rate: 0.01 Dropout: 0.0 Mid dropout: 0.0
+Conv filters: 32 1st Conv size: 3 Mid Conv Size:3 Epochs: 250
+Optimizer: 1cycle L2 on?: 1 Epochs: 250
+Batch size: 32 Network blocks: 1,1
+
+Results on test: 
+
+Final training accuracy: 0.595, Final validation accuracy: 0.465
+Number of epochs trained: 28
+
+test set result:
+
+              precision    recall  f1-score   support
+
+           0       0.56      0.76      0.65      3900
+           1       0.29      0.09      0.14      3900
+           2       0.16      0.12      0.14      3900
+           3       0.27      0.32      0.29      3900
+           4       0.41      0.68      0.51      3900
+           5       0.53      0.43      0.47      3900
+           6       0.46      0.50      0.48      3900
+           7       0.45      0.37      0.40      3900
+
+    accuracy                           0.41     31200
+   macro avg       0.39      0.41      0.39     31200
+weighted avg       0.39      0.41      0.39     31200
+
+[[2953   59   38  198   88  142  350   72]
+ [ 924  369  383  244  813  292  618  257]
+ [  31  213  469 1559 1012  230  105  281]
+ [ 200  151  400 1262  514  267  451  655]
+ [ 115  152  123  430 2670   92  146  172]
+ [ 320  137  534  119  686 1662  337  105]
+ [ 644   86   63  357  278  306 1933  233]
+ [  53  107  837  535  497  157  286 1428]]
+
+Experiment name: Baseline20, finished training at 29/02/2020 05:02:06 UTC
+Scaling:standard
+Hyperparams:
+
+Learning rate: 0.01 Dropout: 0.0 Mid dropout: 0.0
+Conv filters: 32 1st Conv size: 3 Mid Conv Size:3 Epochs: 250
+Optimizer: 1cycle L2 on?: 1 Epochs: 250
+Batch size: 32 Network blocks: 1,1
+
+Results on test: 
+
+Final training accuracy: 0.597, Final validation accuracy: 0.465
+Number of epochs trained: 31
+
+test set result:
+
+              precision    recall  f1-score   support
+
+           0       0.63      0.75      0.69      3900
+           1       0.35      0.20      0.26      3900
+           2       0.16      0.19      0.17      3900
+           3       0.26      0.30      0.28      3900
+           4       0.54      0.54      0.54      3900
+           5       0.46      0.51      0.48      3900
+           6       0.52      0.43      0.47      3900
+           7       0.28      0.27      0.27      3900
+
+    accuracy                           0.40     31200
+   macro avg       0.40      0.40      0.39     31200
+weighted avg       0.40      0.40      0.39     31200
+
+[[2930  117   41  202   72  197  270   71]
+ [ 631  793  533  173  408  535  434  393]
+ [  13  257  728 1537  375  333   64  593]
+ [ 173  148  706 1183  324  472  243  651]
+ [ 116  312  220  356 2094  138  184  480]
+ [ 227  281  866   84  179 1973  175  115]
+ [ 526  135  157  476  139  423 1684  360]
+ [  34  234 1333  585  297  178  198 1041]]
+
+Experiment name: Baseline21, finished training at 29/02/2020 06:18:29 UTC
+Scaling:standard
+Hyperparams:
+
+Learning rate: 0.01 Dropout: 0.0 Mid dropout: 0.0
+Conv filters: 32 1st Conv size: 3 Mid Conv Size:3 Epochs: 250
+Optimizer: 1cycle L2 on?: 1 Epochs: 250
+Batch size: 32 Network blocks: 1,1
+
+Results on test: 
+
+Final training accuracy: 0.593, Final validation accuracy: 0.462
+Number of epochs trained: 35
+
+test set result:
+
+              precision    recall  f1-score   support
+
+           0       0.66      0.75      0.70      3900
+           1       0.37      0.19      0.25      3900
+           2       0.21      0.15      0.17      3900
+           3       0.28      0.30      0.29      3900
+           4       0.57      0.59      0.58      3900
+           5       0.62      0.39      0.48      3900
+           6       0.50      0.58      0.53      3900
+           7       0.30      0.51      0.37      3900
+
+    accuracy                           0.43     31200
+   macro avg       0.44      0.43      0.42     31200
+weighted avg       0.44      0.43      0.42     31200
+
+[[2941   92   39  126   50   64  376  212]
+ [ 612  757  324  190  415  258  554  790]
+ [  20  307  586 1431  258  219   70 1009]
+ [ 166  183  271 1178  313  138  430 1221]
+ [  90  286   89  430 2296   65  160  484]
+ [ 217  214  642   96  322 1516  484  409]
+ [ 385   80   41  357  125  146 2251  515]
+ [  44  143  829  435  220   58  201 1970]]
+
+Experiment name: Baseline22, finished training at 29/02/2020 07:19:57 UTC
+Scaling:standard
+Hyperparams:
+
+Learning rate: 0.01 Dropout: 0.0 Mid dropout: 0.0
+Conv filters: 32 1st Conv size: 3 Mid Conv Size:3 Epochs: 250
+Optimizer: 1cycle L2 on?: 1 Epochs: 250
+Batch size: 32 Network blocks: 1,1
+
+Results on test: 
+
+Final training accuracy: 0.595, Final validation accuracy: 0.453
+Number of epochs trained: 28
+
+test set result:
+
+              precision    recall  f1-score   support
+
+           0       0.72      0.59      0.65      3900
+           1       0.30      0.17      0.22      3900
+           2       0.25      0.24      0.25      3900
+           3       0.25      0.41      0.31      3900
+           4       0.50      0.56      0.53      3900
+           5       0.50      0.43      0.46      3900
+           6       0.48      0.50      0.49      3900
+           7       0.30      0.30      0.30      3900
+
+    accuracy                           0.40     31200
+   macro avg       0.41      0.40      0.40     31200
+weighted avg       0.41      0.40      0.40     31200
+
+[[2287  128   62  301  159  176  670  117]
+ [ 385  670  331  344  591  503  583  493]
+ [   1  225  940 1780  306  205   24  419]
+ [  96  201  398 1605  352  325  217  706]
+ [  91  263  224  457 2196   57  173  439]
+ [ 107  387  612  174  503 1664  298  155]
+ [ 160   85  146  629  137  367 1946  430]
+ [  32  254 1042 1084  105   58  138 1187]]
+
+Experiment name: Baseline23, finished training at 29/02/2020 08:24:37 UTC
+Scaling:standard
+Hyperparams:
+
+Learning rate: 0.01 Dropout: 0.0 Mid dropout: 0.0
+Conv filters: 32 1st Conv size: 3 Mid Conv Size:3 Epochs: 250
+Optimizer: 1cycle L2 on?: 1 Epochs: 250
+Batch size: 32 Network blocks: 1,1
+
+Results on test: 
+
+Final training accuracy: 0.597, Final validation accuracy: 0.440
+Number of epochs trained: 30
+
+test set result:
+
+              precision    recall  f1-score   support
+
+           0       0.65      0.69      0.67      3900
+           1       0.27      0.25      0.26      3900
+           2       0.23      0.18      0.20      3900
+           3       0.27      0.36      0.31      3900
+           4       0.64      0.46      0.54      3900
+           5       0.56      0.57      0.57      3900
+           6       0.56      0.47      0.51      3900
+           7       0.35      0.47      0.40      3900
+
+    accuracy                           0.43     31200
+   macro avg       0.44      0.43      0.43     31200
+weighted avg       0.44      0.43      0.43     31200
+
+[[2685  232   39  314   56  170  285  119]
+ [ 630  972  312  286  422  478  433  367]
+ [   8  589  706 1251   50  212   41 1043]
+ [ 126  276  374 1388  199  314  258  965]
+ [  79  670  198  592 1803  123   99  336]
+ [ 190  219  607  103  205 2217  207  152]
+ [ 348  368   91  486   70  288 1823  426]
+ [  53  216  809  747   20  134   98 1823]]
+
+Experiment name: Baseline24, finished training at 29/02/2020 09:27:02 UTC
+Scaling:standard
+Hyperparams:
+
+Learning rate: 0.01 Dropout: 0.0 Mid dropout: 0.0
+Conv filters: 32 1st Conv size: 3 Mid Conv Size:3 Epochs: 250
+Optimizer: 1cycle L2 on?: 1 Epochs: 250
+Batch size: 32 Network blocks: 1,1
+
+Results on test: 
+
+Final training accuracy: 0.595, Final validation accuracy: 0.465
+Number of epochs trained: 28
+
+test set result:
+
+              precision    recall  f1-score   support
+
+           0       0.56      0.75      0.64      3900
+           1       0.22      0.21      0.22      3900
+           2       0.19      0.14      0.16      3900
+           3       0.26      0.39      0.31      3900
+           4       0.58      0.38      0.46      3900
+           5       0.43      0.48      0.46      3900
+           6       0.51      0.45      0.48      3900
+           7       0.40      0.32      0.36      3900
+
+    accuracy                           0.39     31200
+   macro avg       0.39      0.39      0.39     31200
+weighted avg       0.39      0.39      0.39     31200
+
+[[2939  110   20  187   50  247  302   45]
+ [ 762  828  314  293  370  553  547  233]
+ [  52  563  562 1742  120  371   35  455]
+ [ 282  320  311 1517  143  504  234  589]
+ [ 169  838  182  744 1466  171  130  200]
+ [ 324  410  685   60  162 1888  286   85]
+ [ 670  216   53  436  142  378 1755  250]
+ [  87  412  865  764   59  270  183 1260]]
+
+Experiment name: Baseline25, finished training at 29/02/2020 10:52:00 UTC
+Scaling:standard
+Hyperparams:
+
+Learning rate: 0.01 Dropout: 0.0 Mid dropout: 0.0
+Conv filters: 32 1st Conv size: 3 Mid Conv Size:3 Epochs: 250
+Optimizer: 1cycle L2 on?: 1 Epochs: 250
+Batch size: 32 Network blocks: 1,1
+
+Results on test: 
+
+Final training accuracy: 0.595, Final validation accuracy: 0.461
+Number of epochs trained: 39
+
+test set result:
+
+              precision    recall  f1-score   support
+
+           0       0.65      0.72      0.68      3900
+           1       0.24      0.09      0.13      3900
+           2       0.21      0.15      0.18      3900
+           3       0.27      0.37      0.31      3900
+           4       0.66      0.55      0.60      3900
+           5       0.41      0.50      0.45      3900
+           6       0.50      0.49      0.49      3900
+           7       0.33      0.46      0.39      3900
+
+    accuracy                           0.42     31200
+   macro avg       0.41      0.42      0.40     31200
+weighted avg       0.41      0.42      0.40     31200
+
+[[2800   49   19  264   47  298  332   91]
+ [ 689  353  311  414  461  685  528  459]
+ [  11  342  595 1263   90  566   54  979]
+ [ 111  142  286 1431  153  382  345 1050]
+ [  54  247  125  535 2136  248  110  445]
+ [ 222  145  638  232  209 1966  297  191]
+ [ 349   53   36  583   95  448 1894  442]
+ [  40  119  860  610   27  172  262 1810]]
+
