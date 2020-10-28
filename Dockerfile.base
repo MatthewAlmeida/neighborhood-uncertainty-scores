@@ -1,0 +1,7 @@
+FROM tensorflow/tensorflow:2.0.0-gpu-py3
+
+COPY . /Workspace
+WORKDIR /Workspace
+
+RUN pip install --upgrade pip && \
+    pip install -r requirements.txt
