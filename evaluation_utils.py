@@ -1,10 +1,18 @@
 import numpy as np 
 from scipy.stats import mode
 
+
 def get_voting_predictions(
     model, X, y, 
     samples_per_song
 ):
+    """
+    We use this function to calculate the 'voting' predictions:
+    when each time window's individual prediction is used to cast a 
+    'vote' as to which class the entire song should be predicted as.
+    The class with the maximum number of votes is considered the 
+    prediction and performance is measured accordingly.
+    """
     probabilites = model.predict(X, verbose=0)
 
     y_true = np.argmax(y, axis=1)
